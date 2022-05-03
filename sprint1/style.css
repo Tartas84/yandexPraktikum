@@ -27,6 +27,7 @@ div{
 } 
 .flex-row{
   display: flex;
+  justify-content: space-around;
 }
 .flex-column{
     width: 636px;
