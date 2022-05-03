@@ -69,12 +69,21 @@ object-fit: cover;
    flex-direction: row-reverse;
 }
 .menu{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height:75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height:75px;
 }
 .project_vanilla{
-    width: 306px;
-    height: 290px;
+  width: 306px;
+  height: 290px;
+}
+.project_how-to-study{
+  background-image: url(https://code.s3.yandex.net/web-code/how-to-study.png);
+}
+.project_across-russia {
+  background-image: url(https://code.s3.yandex.net/web-code/across-russia.png);
+}
+  .project_mesto{
+   background-image: url(https://code.s3.yandex.net/web-code/mesto.png);
   }
