@@ -30,8 +30,10 @@ div{
   justify-content: space-around;
 }
 .flex-column{
+   display: flex;
     width: 636px;
    height: 557px;
+  justify-content:space-between;
 }
 .project_procrastinate{
     height: 557px;
@@ -58,5 +60,21 @@ object-fit: cover;
 .project_reactive{
   background-image: url(https://code.s3.yandex.net/web-code/reactive.gif);
     width: 306px;
-  height: 290px
+  height: 290px;
 }
+.flex-column_reversed{
+ flex-direction: column-reverse;
+}
+.flex-row_reversed{
+   flex-direction: row-reverse;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height:75px;
+}
+.project_vanilla{
+    width: 306px;
+    height: 290px;
+  }
