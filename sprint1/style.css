@@ -1,14 +1,18 @@
+body { 
+  font-family: "Cormorant Garamond";
+}
 .header {
     height: 95px;
       display: flex;
+  max-width: 1330px;
+min-width: 1280px;
+margin: auto; 
 } 
 .header-link{
-        margin: auto
-}
-div{
-    border-width:1;
-    border-color: red;
-    border-style: solid ;
+        margin: auto;
+    font-size: 28px;
+   text-decoration: none;
+  color:#10191E;
 }
   .project{
   background-position: center;
@@ -24,11 +28,11 @@ div{
 
 .project_design-principles {
     background-image: url(https://code.s3.yandex.net/web-code/design.png);
-<<<<<<< Updated upstream
 } 
 .flex-row{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  flex-wrap:wrap;
 }
 .flex-column{
    display: flex;
@@ -74,6 +78,10 @@ object-fit: cover;
   align-items: center;
   justify-content: center;
   min-height:75px;
+  flex-wrap: wrap;
+  max-width: 1330px;
+min-width: 1280px;
+margin: auto; 
 }
 .project_vanilla{
   width: 306px;
@@ -81,16 +89,43 @@ object-fit: cover;
 }
 .project_how-to-study{
   background-image: url(https://code.s3.yandex.net/web-code/how-to-study.png);
+  order:3;
 }
 .project_across-russia {
   background-image: url(https://code.s3.yandex.net/web-code/across-russia.png);
+  order:2;
+  flex-basis: 636px;
 }
   .project_mesto{
    background-image: url(https://code.s3.yandex.net/web-code/mesto.png);
+    order:1;
   }
-=======
-}  
-.flex-row{
-    display: flex;
+.footer{
+  display: flex;
+  height: 95px;
+  justify-content: center;
+  max-width: 1330px;
+min-width: 1280px;
+margin: auto; 
 }
->>>>>>> Stashed changes
+.logo{
+  display: flex;
+  width: 145px;
+  height: 25px;
+  background-image: url(https://pictures.s3.yandex.net/logo_black.png);
+   background-repeat: no-repeat;
+  background-size: contain;
+   background-position: center;
+  align-self: center;
+}
+.main{
+max-width: 1330px;
+min-width: 1280px;
+margin: auto; 
+}
+.menu-link{
+  font-size: 18px;
+   margin: 0px 20px;
+  text-decoration: none;
+  color:#10191E;
+}
