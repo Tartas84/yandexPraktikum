@@ -1,131 +1,159 @@
-body { 
-  font-family: "Cormorant Garamond";
+body {
+  font-family: 'Cormorant Garamond';
 }
+
 .header {
-    height: 95px;
-      display: flex;
+  height: 95px;
+  display: flex;
   max-width: 1330px;
-min-width: 1280px;
-margin: auto; 
-} 
-.header-link{
-        margin: auto;
-    font-size: 28px;
-   text-decoration: none;
-  color:#10191E;
+  min-width: 1280px;
+  margin: auto;
 }
-  .project{
+
+.header-link {
+  margin: auto;
+  font-size: 28px;
+  text-decoration: none;
+  color: #10191E;
+}
+.project {
   background-position: center;
-        background-size: cover;
-    }
-.project_beginner{
-         width: 636px;
-             height: 430px;
+  background-size: cover;
 }
+
+.project_beginner {
+  width: 636px;
+  height: 430px;
+}
+
 .project_music-album {
-    background-image: url(https://code.s3.yandex.net/web-code/album.png);
+  background-image: url(https://code.s3.yandex.net/web-code/album.png);
 }
 
 .project_design-principles {
-    background-image: url(https://code.s3.yandex.net/web-code/design.png);
-} 
-.flex-row{
+  background-image: url(https://code.s3.yandex.net/web-code/design.png);
+}
+
+.flex-row {
   display: flex;
   justify-content: space-between;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
 }
-.flex-column{
-   display: flex;
-    width: 636px;
-   height: 557px;
-  justify-content:space-between;
+
+.flex-column {
+  width: 636px;
+  height: 557px;
+  display: flex;
+  justify-content: space-between;
 }
-.project_procrastinate{
-    height: 557px;
-     width: 636px;
+
+.flex-column_reversed {
+  flex-direction: column-reverse;
 }
-.project-video{
-    width: 100%;
-height: 100%;
-object-fit: cover;
+
+.project_procrastinate {
+  width: 636px;
+  height: 557px;
 }
+
+.project-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .project_p5 {
-    width: 636px;
-    height: 240px;
+  width: 636px;
+  height: 240px;
 }
-.flex-row_frameworks-inner{
+
+.flex-row_frameworks-inner {
   width: 636px;
   height: 290px;
-} 
-.project_slider{
-  background-image: url(https://code.s3.yandex.net/web-code/slider.gif);
+}
+
+.project_slider {
   width: 306px;
-  height: 290px
-}
-.project_reactive{
-  background-image: url(https://code.s3.yandex.net/web-code/reactive.gif);
-    width: 306px;
   height: 290px;
+  background-image: url(https://code.s3.yandex.net/web-code/slider.gif);
 }
-.flex-column_reversed{
- flex-direction: column-reverse;
+
+.project_reactive {
+  width: 306px;
+  height: 290px;
+  background-image: url(https://code.s3.yandex.net/web-code/reactive.gif);
 }
-.flex-row_reversed{
-   flex-direction: row-reverse;
+
+.flex-row_reversed {
+  flex-direction: row-reverse;
+  margin: 60px 0;
 }
-.menu{
+
+.menu {
   display: flex;
-  align-items: center;
   justify-content: center;
-  min-height:75px;
+  min-height: 75px;
+  align-items: center;
   flex-wrap: wrap;
   max-width: 1330px;
-min-width: 1280px;
-margin: auto; 
+  min-width: 1280px;
+  margin: 40px auto;
 }
-.project_vanilla{
+
+.project_vanilla {
   width: 306px;
   height: 290px;
 }
-.project_how-to-study{
+
+.project_how-to-study {
   background-image: url(https://code.s3.yandex.net/web-code/how-to-study.png);
-  order:3;
+  order: 3;
 }
+
 .project_across-russia {
   background-image: url(https://code.s3.yandex.net/web-code/across-russia.png);
-  order:2;
+  order: 2;
   flex-basis: 636px;
 }
-  .project_mesto{
-   background-image: url(https://code.s3.yandex.net/web-code/mesto.png);
-    order:1;
-  }
-.footer{
-  display: flex;
+
+.project_mesto {
+  background-image: url(https://code.s3.yandex.net/web-code/mesto.png);
+  order: 1;
+}
+
+.footer {
   height: 95px;
+  display: flex;
   justify-content: center;
   max-width: 1330px;
-min-width: 1280px;
-margin: auto; 
+  min-width: 1280px;
+  margin: auto;
 }
-.logo{
-  display: flex;
+
+.logo {
   width: 145px;
   height: 25px;
   background-image: url(https://pictures.s3.yandex.net/logo_black.png);
-   background-repeat: no-repeat;
   background-size: contain;
-   background-position: center;
+  background-repeat: no-repeat;
+  background-position: center;
   align-self: center;
 }
-.main{
-max-width: 1330px;
-min-width: 1280px;
-margin: auto; 
+
+.main {
+  max-width: 1330px;
+  min-width: 1280px;
+  margin: auto;
 }
-.menu-link{
+
+.menu-link {
   font-size: 18px;
-   margin: 0px 20px;
   text-decoration: none;
-  color:#10191E;
+  color: #10191E;
+  margin-right: 20px;
+}
+div{
+   border: solid;
+border-width : 1px;
+  border-color:  red;
 }
