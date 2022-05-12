@@ -38,9 +38,12 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-   list-style: none;
+}
+.list{
+    list-style: none;
   padding:0;
   margin:0;
+  
 }
 
 .flex-column {
@@ -143,7 +146,7 @@ body {
   align-self: center;
 }
 
-.main {
+.content {
   max-width: 1330px;
   min-width: 1280px;
   margin: auto;
@@ -154,5 +157,3 @@ body {
   text-decoration: none;
   color: #10191E;
   margin-right: 20px;
-}
-
