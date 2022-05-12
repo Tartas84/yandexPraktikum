@@ -38,6 +38,9 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+   list-style: none;
+  padding:0;
+  margin:0;
 }
 
 .flex-column {
@@ -152,8 +155,4 @@ body {
   color: #10191E;
   margin-right: 20px;
 }
-div{
-   border: solid;
-border-width : 1px;
-  border-color:  red;
-}
+
