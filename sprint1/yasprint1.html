@@ -10,14 +10,14 @@
   <link rel="stylesheet" href="style.css">
   <title>Портфолио</title>
 </head>
-<body>
+<body class="page">
   <header class="header">
-    <a href="#" class="header-link" lang="en" >Sergei</a> 
+    <a href="#" class="header__link" lang="en" >Sergei</a> 
   </header>
   <nav class="menu">
-    <a href="#" class="menu-link">Первые шаги в HTML и CSS</a>
-    <a href="#" class="menu-link">Библиотеки JavaScript</a>
-    <a href="#" class="menu-link">Практика HTML, CSS и JavaScript</a>
+    <a href="#" class="menu__link menu__link_active">Первые шаги в HTML и CSS</a>
+    <a href="#" class="menu__link">Библиотеки JavaScript</a>
+    <a href="#" class="menu__link">Практика HTML, CSS и JavaScript</a>
   </nav>
   <main class="content">
     <ul class="flex-row list">
@@ -27,7 +27,7 @@
     <section class="flex-row  flex-row_reversed">
       <div class="flex-column flex-column_reversed">
         <div class="project project_frameworks project_p5">
-          <video class="project-video" src="https://code.s3.yandex.net/web-code/like.mp4" autoplay muted loop></video>
+          <video class="project__video" src="https://code.s3.yandex.net/web-code/like.mp4" autoplay muted loop></video>
         </div>
         <ul class="flex-row list flex-row_frameworks-inner">
           <li class="project project_frameworks project_slider"></li>
@@ -35,7 +35,7 @@
         </ul>
       </div>
       <div class="project project_frameworks project_procrastinate">
-        <video class="project-video" src="https://code.s3.yandex.net/web-code/procrastinate.mov" autoplay muted loop></video>
+        <video class="project__video" src="https://code.s3.yandex.net/web-code/procrastinate.mov" autoplay muted loop></video>
       </div>
     </section>
     <ul class="flex-row list">
@@ -45,7 +45,7 @@
     </ul>
   </main>
   <footer class="footer">
-    <div class="logo"></div>
+    <div class="footer__logo"></div>
   </footer>
-</body>
+</body>>
 </html>

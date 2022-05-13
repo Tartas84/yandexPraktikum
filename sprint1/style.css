@@ -1,4 +1,4 @@
-body {
+.page {
   font-family: 'Cormorant Garamond';
 }
 
@@ -10,7 +10,7 @@ body {
   margin: auto;
 }
 
-.header-link {
+.header__link {
   margin: auto;
   font-size: 28px;
   text-decoration: none;
@@ -62,7 +62,7 @@ body {
   height: 557px;
 }
 
-.project-video {
+.project__video {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -136,7 +136,7 @@ body {
   margin: auto;
 }
 
-.logo {
+.footer__logo {
   width: 145px;
   height: 25px;
   background-image: url(https://pictures.s3.yandex.net/logo_black.png);
@@ -152,8 +152,12 @@ body {
   margin: auto;
 }
 
-.menu-link {
+.menu__link {
   font-size: 18px;
   text-decoration: none;
   color: #10191E;
   margin-right: 20px;
+}
+.menu__link_active{
+  text-decoration:underline;;
+}
