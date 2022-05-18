@@ -161,3 +161,9 @@
 .menu__link_active{
   text-decoration:underline;;
 }
+.project_width_l{
+  width:636;
+}
+.project_width_m{
+  width:306;
+}
