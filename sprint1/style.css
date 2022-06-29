@@ -6,31 +6,25 @@
   height: 95px;
   display: flex;
   max-width: 1330px;
-  min-width: 1280px;
-  margin: auto;
+	min-width: 1280px;
 }
 
 .header__link {
-  margin: auto;
   font-size: 28px;
   text-decoration: none;
   color: #10191E;
 }
+
 .project {
   background-position: center;
   background-size: cover;
 }
 
-.project_beginner {
-  width: 636px;
-  height: 430px;
-}
-
-.project_music-album {
+.project_name_music-album {
   background-image: url(https://code.s3.yandex.net/web-code/album.png);
 }
 
-.project_design-principles {
+.project_name_design-principles {
   background-image: url(https://code.s3.yandex.net/web-code/design.png);
 }
 
@@ -39,16 +33,14 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.list{
-    list-style: none;
-  padding:0;
-  margin:0;
-  
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .flex-column {
-  width: 636px;
-  height: 557px;
   display: flex;
   justify-content: space-between;
 }
@@ -57,10 +49,6 @@
   flex-direction: column-reverse;
 }
 
-.project_procrastinate {
-  width: 636px;
-  height: 557px;
-}
 
 .project__video {
   width: 100%;
@@ -68,31 +56,16 @@
   object-fit: cover;
 }
 
-.project_p5 {
-  width: 636px;
-  height: 240px;
-}
-
-.flex-row_frameworks-inner {
-  width: 636px;
-  height: 290px;
-}
-
-.project_slider {
-  width: 306px;
-  height: 290px;
+.project_name_slider {
   background-image: url(https://code.s3.yandex.net/web-code/slider.gif);
 }
 
-.project_reactive {
-  width: 306px;
-  height: 290px;
+.project_name_reactive {
   background-image: url(https://code.s3.yandex.net/web-code/reactive.gif);
 }
 
 .flex-row_reversed {
   flex-direction: row-reverse;
-  margin: 60px 0;
 }
 
 .menu {
@@ -102,38 +75,32 @@
   align-items: center;
   flex-wrap: wrap;
   max-width: 1330px;
-  min-width: 1280px;
-  margin: 40px auto;
+	min-width: 1280px;
+	margin: 40px auto;
 }
 
-.project_vanilla {
-  width: 306px;
-  height: 290px;
-}
 
-.project_how-to-study {
+.project_name_how-to-study {
   background-image: url(https://code.s3.yandex.net/web-code/how-to-study.png);
   order: 3;
 }
 
-.project_across-russia {
+.project_name_across-russia {
   background-image: url(https://code.s3.yandex.net/web-code/across-russia.png);
   order: 2;
-  flex-basis: 636px;
 }
 
-.project_mesto {
+.project_name_mesto {
   background-image: url(https://code.s3.yandex.net/web-code/mesto.png);
   order: 1;
 }
 
 .footer {
   height: 95px;
-  display: flex;
+	display: flex;
   justify-content: center;
   max-width: 1330px;
-  min-width: 1280px;
-  margin: auto;
+	min-width: 1280px;
 }
 
 .footer__logo {
@@ -147,9 +114,8 @@
 }
 
 .content {
-  max-width: 1330px;
-  min-width: 1280px;
-  margin: auto;
+	max-width: 1330px;
+	min-width: 1280px;
 }
 
 .menu__link {
@@ -158,12 +124,43 @@
   color: #10191E;
   margin-right: 20px;
 }
-.menu__link_active{
-  text-decoration:underline;;
+
+.menu__link_active {
+  text-decoration: underline;
 }
-.project_width_l{
-  width:636;
+
+.project_width_l {
+  width: 636px;
 }
-.project_width_m{
-  width:306;
+
+.project_width_m {
+  width: 306px;
+}
+
+.project_height_xl {
+  height: 557px;
+}
+
+.project_height_l {
+  height: 430px;
+}
+
+.project_height_m {
+  height: 290px;
+}
+
+.project_height_s {
+  height: 240px;
+}
+
+.centered-block {
+  margin: auto;
+}
+
+.page__menu {
+  margin: 40px auto;
+}
+
+.flex-row_space_bottom {
+  margin-bottom: 60px;
 }
